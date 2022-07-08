@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    background: black;
+}
+#navbar img{
+    width: 60px;
+    cursor: pointer;
+}
+#navbar ul{
+    display: none;
+}
+.logo{
+    color: white;
+    padding: 5px;
+    margin-bottom: 17px;
+}
+#section1{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('federico-respini-sYffw0LNr7s-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#section1 h1{
+    font-size: 45px;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 20px;
+}
+#section1 span{
+    font-size: 60px;
+    color: white;
+}
+#section1 p{
+    color: white;
+    margin: 0px 20px;
+    padding: 20px;
+    font-size: 17px;
+}
+button{
+    outline: none;
+    margin: 5px 40px 15px 40px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(22, 180, 253);
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#section2{
+    background: rgb(30, 37, 56);
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+#section2 p{
+    padding: 0px 20px 30px 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#section2 h1{
+    padding: 20px 10px 5px 10px;
+    margin-top: 0px;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#my-skills{
+    background: rgb(95, 63, 41);
+    /* height: 200vh; */
+}
+.skill{
+    background: coral;
+    margin: 33px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+.skill p{
+    color: white;
+}
+#skill.head{
+    padding: 10px;
+    color: white;
+    margin-top: 0px;
+    margin: 200px;
+    text-align: center;
+}
+.skill h1{
+    color:gainsboro;
+    padding: 10px;
+    color: white;
+    margin-top: 0px;
+    margin: 10px;
+    text-align: center;
+}
+#my-skills > h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding: 20px 10px 5px 10px;
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+}
+#form-bg{
+    background-color:darkcyan;
+}
+form{
+    margin: 40px 40px 0px 40px;
+    text-align: center;
+    margin-top: 0px;
+}
+#form-bg h1{
+    padding: 20px 10px 5px 10px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+}
+#form-bg input, textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background: transparent;
+    border: none;
+}#form-bg input.inp{
+    border-bottom: 2px solid coral;
+    color: white;
+}
+#form-bg input::placeholder{
+    color: white;
+}
+#form-bg textarea::placeholder{
+    color: white;
+}
+#form-bg input:focus{
+    outline: none;
+}
+#form-bg textarea:focus{
+    outline: none;
+}
+#form-bg textarea.msg{
+    border: 2px solid coral;
+    color: white;
+}
+#form-bg input.submit{
+    border: 2px solid coral;
+    color: white;
+    transition: 0.9s;
+    margin-bottom: 30px;
+}
+#form-bg input.submit:hover{
+    background-color: coral;
+    border: none;
+}
+#contact-info{
+    background-color: darkolivegreen;
+    text-align: center;
+    padding: 17px;
+    color: whitesmoke;
+}
+#contact-info h1{
+    margin-top: 0px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+footer p{
+    margin: 0px;
+}
